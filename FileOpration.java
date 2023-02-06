@@ -35,7 +35,7 @@ public class FileOpration {
 		}
 	}
 
-	public void creatFile(String fileName, String path) {
+	public void createFile(String fileName, String path) {
 		this.path = path;
 		this.fileName = fileName;
 		this.path += "\\" + this.fileName;
